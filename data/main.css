@@ -3,10 +3,14 @@
   top: 300px;
   left: 100px;
 }
-.cenber{
+#cenber{
   position: absolute;
   top: 300px;
   left: 100px;
+  transition: 0.4s ease;
+}
+body {
+    background: radial-gradient(circle, #ff7e5f, #feb47b);
 }
 
 .ball{
@@ -37,4 +41,7 @@
   position: absolute;
   top: 107px;
   left:120px ;
+}
+#atasan{
+  
 }
