@@ -11,7 +11,7 @@
 
 .ball{
   display: inline;
-  transition: top 6s ease,left 3s ease;
+  transition: top 1s ease,left 3s ease;
 }
 #b1{
   position: absolute;
