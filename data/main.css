@@ -4,5 +4,6 @@
   left: 100px;
 }
 .ball{
+  display: none;
   transition: top 6s ease,left 3s ease;
 }
