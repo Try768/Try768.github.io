@@ -3,3 +3,6 @@
   top: 100px;
   left: 100px;
 }
+.ball{
+  transition: top 6s ease,left 3s ease;
+}
