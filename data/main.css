@@ -13,8 +13,8 @@
   display: inline;
   transition: top 6s ease,left 3s ease;
 }
-#id{
+#b1{
   position: absolute;
-  top: 300px;
+  top: 100px;
   left:120px ;
 }
