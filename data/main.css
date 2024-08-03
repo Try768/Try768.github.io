@@ -16,5 +16,25 @@
 #b1{
   position: absolute;
   top: 100px;
+  left:125px ;
+}
+#b2{
+  position: absolute;
+  top: 100px;
+  left:110px ;
+}
+#b3{
+  position: absolute;
+  top: 100px;
+  left:130px ;
+}
+#b4{
+  position: absolute;
+  top: 110px;
+  left:120px ;
+}
+#b5{
+  position: absolute;
+  top: 107px;
   left:120px ;
 }
