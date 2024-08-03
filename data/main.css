@@ -10,7 +10,7 @@
 }
 
 .ball{
-  display: block;
+  display: inline;
   transition: top 6s ease,left 3s ease;
 }
 #id{
