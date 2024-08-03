@@ -70,7 +70,7 @@
     ]
     window.addEventListener('click', function(event) {
     for(let i of bola){
-      let acak = (Math.round(Math.random()*1000)%100)
+      let acak = (Math.round(Math.random()*1000)%100)-100
       i.style.top = acak+"px"
     }
 });
