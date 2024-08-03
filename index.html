@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>hbd</title>
     <link rel="stylesheet" href="data/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <style>
       .center{
         position: absolute;
@@ -14,9 +15,22 @@
         width: 300px;
         height: 300px;
       }
+      tulisa{
+        font-family: 'Pacifico',cursive ;
+        text-align: center;
+      }
     </style>
   </head>
   <body>
+    <div class="cener">
+    <svg class="center" width="50vw" height="50vh" xmlns="http://www.w3.org/2000/svg">
+      
+        <polygon points="50,50 150,30 150,190 50,150" 
+                 stroke="black" stroke-width="2" fill="lightblue" />
+        <polygon points="150,30 250,50 250,150 150,190" 
+                 stroke="black" stroke-width="2" fill="lightblue" />
+      </svg>
+    </div>
     <div class="cener">
     <svg id="b1"class="ball" width="10vw" height="10vh" xmlns="http://www.w3.org/2000/svg">
           <circle cx="20" cy="20" r="10" stroke="black" stroke-width="3" fill="#34ffc7" />
@@ -34,20 +48,18 @@
           <circle cx="20" cy="20" r="10" stroke="#ff7c7c" stroke-width="3" fill="red" />
          </svg>
     </div>
+    <tulisa>hbd <br> vivi yakult</tulisa>
     <div class="cener">
     <svg class="center" width="50vw" height="50vh" xmlns="http://www.w3.org/2000/svg">
         <!circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
-        <polygon points="50,50 150,30 150,190 50,150" 
-                 stroke="black" stroke-width="2" fill="lightblue" />
-        <polygon points="150,30 250,50 250,150 150,190" 
-                 stroke="black" stroke-width="2" fill="lightblue" />
         <polygon points="50,50 150,80 150,190 50,150" 
                  stroke="black" stroke-width="2" fill="lightblue" />
         <polygon points="150,80 250,50 250,150 150,190" 
                  stroke="black" stroke-width="2" fill="#4a32ff" />
     </svg>
+    
     </div>
-    <div class="cenber">
+    <div id="cenber">
     <svg class="center" width="100vw" height="100vh" xmlns="http://www.w3.org/2000/svg">
         <!circle cx="50" cy="50" r="40" stroke="black" stroke-width="3" fill="red" />
         
@@ -69,6 +81,7 @@
       document.getElementById("b5")
     ]
     window.addEventListener('click', function(event) {
+      document.getElementById("cenber").style.top =100+"px"
     for(let i of bola){
       let acak = (Math.round(Math.random()*1000)%100)-100
       i.style.top = acak+"px"
