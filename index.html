@@ -18,7 +18,13 @@
       tulisa{
         font-family: 'Pacifico',cursive ;
         text-align: center;
-        size: 100px;
+      }
+      #tulisan{
+        font-size: 10px;
+        position: absolute;
+        top: 400px;
+        left: 200px;
+        transition: 1s ease;
       }
     </style>
   </head>
@@ -49,9 +55,9 @@
           <circle cx="20" cy="20" r="10" stroke="#ff7c7c" stroke-width="3" fill="red" />
          </svg>
     </div>
-    <div>
+    <div id="tulisan" >
       
-    <tulisa>hbd <br> vivi </tulisa>
+    <tulisa> </tulisa>
     </div>
     <div class="cener">
     <svg class="center" width="50vw" height="50vh" xmlns="http://www.w3.org/2000/svg">
@@ -86,6 +92,10 @@
     ]
     window.addEventListener('click', function(event) {
       document.getElementById("cenber").style.top =100+"px"
+      let tulis = document.getElementById("tulisan")
+      tulis.style.top = 250+"px"
+      tulis.style.left = 150+"px"
+      tulis.style.fontSize = 50+"px"
     for(let i of bola){
       let acak = (Math.round(Math.random()*1000)%100)-100
       i.style.top = acak+"px"
